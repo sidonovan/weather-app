@@ -1,0 +1,38 @@
+.toggle__component {
+  background-color: #20293a;
+  height: 40px;
+  width: 76px;
+  border-radius: 500px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle__component:hover {
+  cursor: pointer;
+}
+
+.toggle__indicator {
+  height: 40px;
+  width: 38px;
+  border-radius: 9999px;
+  background-color: #f2f5f9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: transform 0.3s ease;
+}
+
+.toggle__label {
+  flex: 1;
+  color: rgb(0, 0, 0);
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  z-index: 1;
+}
