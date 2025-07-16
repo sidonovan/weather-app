@@ -6,6 +6,7 @@
   flex-direction: column;
   border-radius: 16px;
   background-color: #20293a;
+  margin-right: 44px;
 }
 
 .weather__summary-top {
