@@ -1,0 +1,64 @@
+.weather__summary {
+  display: flex;
+  width: 340px;
+  height: 187px;
+  padding: 24px 20px;
+  flex-direction: column;
+  border-radius: 16px;
+  background-color: #20293a;
+}
+
+.weather__summary-top {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.weather__summary-topside {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather__summary-temp {
+  color: #f2f5f9;
+  font-family: Outfit;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  margin-right: auto;
+}
+
+.weather__summary-cityname {
+  color: #f2f5f9;
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.weather__summary-time {
+  color: #f2f5f9;
+  font-family: Outfit;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.weather__summary-mid {
+  display: flex;
+}
+
+.weather__summary-midside {
+  display: flex;
+}
+
+.weather__summary-weathertypelabel {
+  color: #f2f5f9;
+  font-family: Outfit;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
