@@ -21,10 +21,17 @@ export default function WeatherApp() {
             </div>
           </div>
           <div className="weather__summary-mid">
-            <div className="weather__summary-weathertype">
+            <div>
               <img width="36px" height="36px" src="./src/assets/icons/snow.png" alt="snow" />
             </div>
             <div className="weather__summary-weathertypelabel">Snow</div>
+            <img width="20px" height="20px" src="./src/assets/icons/wind.png" alt="wind" />
+            <div className="weather__summary-weatherwindlabel">5.14 m/s</div>
+          </div>
+          <div className="weather__summary-bottom">
+            <div className="weather__summary-feelslikelabel">Feels like:</div>
+            <div className="weather__summary-feelsliketemp">-4&deg;C</div>
+            <div className="weather__summary-temprange">-1&deg; to -3&deg;</div>
           </div>
         </div>
         <div></div>
