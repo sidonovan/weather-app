@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import SearchCity from './SearchCity';
 import TempToggle from './TempToggle';
+import '../header.css';
 import '../top.css';
+import '../main.css';
 import './WeatherSummary.css';
 import './TwentyFourHourForecast.css';
+import './CityWeather.css';
+import './FiveDayForecast.css';
 
 export default function WeatherApp() {
   return (
@@ -94,7 +98,22 @@ export default function WeatherApp() {
           </div>
         </div>
       </div>
-      <main className="main"></main>
+      <main className="main">
+        <div className="cities__weather">
+          <div className="cities__weather-heading">Other large cities</div>
+          <div className="cities__weather-box"></div>
+          <div className="cities__weather-box"></div>
+          <div className="cities__weather-box"></div>
+        </div>
+        <div className="fiveday__forecast">
+          <div className="fiveday__forecast-heading">5-day forecast</div>
+          <div className="fiveday__forecast-box"></div>
+          <div className="fiveday__forecast-box"></div>
+          <div className="fiveday__forecast-box"></div>
+          <div className="fiveday__forecast-box"></div>
+          <div className="fiveday__forecast-box"></div>
+        </div>
+      </main>
     </>
   );
 }
