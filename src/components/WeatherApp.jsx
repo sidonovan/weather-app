@@ -3,6 +3,7 @@ import SearchCity from './SearchCity';
 import TempToggle from './TempToggle';
 import '../top.css';
 import './WeatherSummary.css';
+import './TwentyFourHourForecast.css';
 
 export default function WeatherApp() {
   return (
@@ -34,7 +35,40 @@ export default function WeatherApp() {
             <div className="weather__summary-temprange">-1&deg; to -3&deg;</div>
           </div>
         </div>
-        <div></div>
+        <div className="twentyfourhour__forecast">
+          <div className="twentyfourhour__forecast-box">
+            <div className="twentyfourhour__forecast-box-time">9:00 AM</div>
+            <div className="twentyfourhour__forecast-box-line"></div>
+          </div>
+          <div className="twentyfourhour__forecast-box">
+            <div className="twentyfourhour__forecast-box-time">12:00 AM</div>
+            <div className="twentyfourhour__forecast-box-line"></div>
+          </div>
+          <div className="twentyfourhour__forecast-box">
+            <div className="twentyfourhour__forecast-box-time">3:00 PM</div>
+            <div className="twentyfourhour__forecast-box-line"></div>
+          </div>
+          <div className="twentyfourhour__forecast-box">
+            <div className="twentyfourhour__forecast-box-time">6:00 PM</div>
+            <div className="twentyfourhour__forecast-box-line"></div>
+          </div>
+          <div className="twentyfourhour__forecast-box">
+            <div className="twentyfourhour__forecast-box-time">9:00 PM</div>
+            <div className="twentyfourhour__forecast-box-line"></div>
+          </div>
+          <div className="twentyfourhour__forecast-box">
+            <div className="twentyfourhour__forecast-box-time">12:00 PM</div>
+            <div className="twentyfourhour__forecast-box-line"></div>
+          </div>
+          <div className="twentyfourhour__forecast-box">
+            <div className="twentyfourhour__forecast-box-time">3:00 AM</div>
+            <div className="twentyfourhour__forecast-box-line"></div>
+          </div>
+          <div className="twentyfourhour__forecast-box">
+            <div className="twentyfourhour__forecast-box-time">6:00 AM</div>
+            <div className="twentyfourhour__forecast-box-line"></div>
+          </div>
+        </div>
       </div>
       <main className="main"></main>
     </>

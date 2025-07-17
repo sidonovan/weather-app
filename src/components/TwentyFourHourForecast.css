@@ -1,0 +1,34 @@
+.twentyfourhour__forecast {
+  display: flex;
+  gap: 16px;
+}
+
+.twentyfourhour__forecast-box {
+  width: 80px;
+  height: 187px;
+  border-radius: 16px;
+  background-color: #20293a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.twentyfourhour__forecast-box-time {
+  padding-top: 16px;
+  color: #f2f5f9;
+  font-family: Outfit;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.twentyfourhour__forecast-box-line {
+  width: 64px;
+  height: 1px;
+  background-color: #030616;
+}
+
+.twentyfourhour__forecast-box-weathertype {
+}
