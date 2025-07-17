@@ -28,7 +28,30 @@
   width: 64px;
   height: 1px;
   background-color: #030616;
+  margin-bottom: 16px;
 }
 
-.twentyfourhour__forecast-box-weathertype {
+.twentyfourhour__forecast-box-weathertypeimg {
+}
+
+.twentyfourhour__forecast-box-weathertypelabel {
+  margin-top: 4px;
+  color: #f2f5f9;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.twentyfourhour__forecast-box-temp {
+  color: #f2f5f9;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 32px */
 }

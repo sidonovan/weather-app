@@ -39,34 +39,58 @@ export default function WeatherApp() {
           <div className="twentyfourhour__forecast-box">
             <div className="twentyfourhour__forecast-box-time">9:00 AM</div>
             <div className="twentyfourhour__forecast-box-line"></div>
+            <img width="36px" height="36px" src="./src/assets/icons/snow.png" alt="snow" />
+            <div className="twentyfourhour__forecast-box-weathertypelabel">Snow</div>
+            <div className="twentyfourhour__forecast-box-temp">-1&deg;</div>
           </div>
           <div className="twentyfourhour__forecast-box">
             <div className="twentyfourhour__forecast-box-time">12:00 AM</div>
             <div className="twentyfourhour__forecast-box-line"></div>
+            <img width="36px" height="36px" src="./src/assets/icons/snow.png" alt="snow" />
+            <div className="twentyfourhour__forecast-box-weathertypelabel">Snow</div>
+            <div className="twentyfourhour__forecast-box-temp">-1&deg;</div>
           </div>
           <div className="twentyfourhour__forecast-box">
             <div className="twentyfourhour__forecast-box-time">3:00 PM</div>
             <div className="twentyfourhour__forecast-box-line"></div>
+            <img width="36px" height="36px" src="./src/assets/icons/snow.png" alt="snow" />
+            <div className="twentyfourhour__forecast-box-weathertypelabel">Snow</div>
+            <div className="twentyfourhour__forecast-box-temp">-1&deg;</div>
           </div>
           <div className="twentyfourhour__forecast-box">
             <div className="twentyfourhour__forecast-box-time">6:00 PM</div>
             <div className="twentyfourhour__forecast-box-line"></div>
+            <img width="36px" height="36px" src="./src/assets/icons/snow.png" alt="snow" />
+            <div className="twentyfourhour__forecast-box-weathertypelabel">Snow</div>
+            <div className="twentyfourhour__forecast-box-temp">-1&deg;</div>
           </div>
           <div className="twentyfourhour__forecast-box">
             <div className="twentyfourhour__forecast-box-time">9:00 PM</div>
             <div className="twentyfourhour__forecast-box-line"></div>
+            <img width="36px" height="36px" src="./src/assets/icons/snow.png" alt="snow" />
+            <div className="twentyfourhour__forecast-box-weathertypelabel">Snow</div>
+            <div className="twentyfourhour__forecast-box-temp">-1&deg;</div>
           </div>
           <div className="twentyfourhour__forecast-box">
             <div className="twentyfourhour__forecast-box-time">12:00 PM</div>
             <div className="twentyfourhour__forecast-box-line"></div>
+            <img width="36px" height="36px" src="./src/assets/icons/snow.png" alt="snow" />
+            <div className="twentyfourhour__forecast-box-weathertypelabel">Snow</div>
+            <div className="twentyfourhour__forecast-box-temp">-1&deg;</div>
           </div>
           <div className="twentyfourhour__forecast-box">
             <div className="twentyfourhour__forecast-box-time">3:00 AM</div>
             <div className="twentyfourhour__forecast-box-line"></div>
+            <img width="36px" height="36px" src="./src/assets/icons/snow.png" alt="snow" />
+            <div className="twentyfourhour__forecast-box-weathertypelabel">Snow</div>
+            <div className="twentyfourhour__forecast-box-temp">-1&deg;</div>
           </div>
           <div className="twentyfourhour__forecast-box">
             <div className="twentyfourhour__forecast-box-time">6:00 AM</div>
             <div className="twentyfourhour__forecast-box-line"></div>
+            <img width="36px" height="36px" src="./src/assets/icons/snow.png" alt="snow" />
+            <div className="twentyfourhour__forecast-box-weathertypelabel">Snow</div>
+            <div className="twentyfourhour__forecast-box-temp">-1&deg;</div>
           </div>
         </div>
       </div>
